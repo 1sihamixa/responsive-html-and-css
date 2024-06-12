@@ -1,0 +1,37 @@
+body {
+    background: rgb(159, 107, 55);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vmin;
+}
+form{
+    background:#E245;
+    padding:1vmin;
+    width:80vmin;
+    display:block;
+    position:relative;
+    padding:1vmin 2vmin;
+}
+form input{
+    background: #4fc;
+    border:none;
+    outline:none;
+    width:72%;
+    display: inline-block;
+    margin-top:1vmin;
+}
+form button{
+    background: #4FF;
+    border:none;
+    cursor: grab;
+    padding:1vmin 2vmin;
+    margin-top:2vmin;
+    position:absolute;
+    right:6vmin;
+}
+form label{
+    width:20vmin;
+    display:inline-block;
+    margin-top:1vmin;
+}
